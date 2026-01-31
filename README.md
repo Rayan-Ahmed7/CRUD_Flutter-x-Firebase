@@ -1,16 +1,56 @@
-# crud
+# Flutter Firebase CRUD App
 
-A new Flutter project.
+A simple and beginner-friendly **CRUD (Create, Read, Update, Delete)** application built using **Flutter** and **Firebase Firestore**.  
+This project demonstrates real-time database operations with a clean and responsive UI.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- ➕ Add Employee  
+- 📋 View Employees (Real-time updates)  
+- ✏️ Update Employee Details  
+- 🗑️ Delete Employee  
+- 🔥 Firebase Firestore Integration  
+- 📱 Mobile-friendly UI  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Technologies Used
+
+- Flutter  
+- Dart  
+- Firebase Firestore  
+- Material UI  
+
+---
+
+## 📂 Project Structure
+
+lib/
+├── pages/
+│ ├── home.dart
+│ └── employee.dart
+├── services/
+│ └── database.dart
+└── main.dart
+
+
+
+---
+
+## ⚙️ Firebase Configuration
+
+1. Create a project on **Firebase Console**
+2. Enable **Cloud Firestore**
+3. Add Android app
+4. Download `google-services.json`
+5. Place it inside:
+
+
+6. Run the following commands:
+
+```bash
+flutter clean
+flutter pub get
+flutter run
